@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment3">
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="com.example.fragment_instagram.Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment3_to_addFragment3"
+            app:destination="@id/addFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_likeFragment3"
+            app:destination="@id/likeFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_profileFragment3"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_searchFragment3"
+            app:destination="@id/searchFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_profileFragment32"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_addFragment32"
+            app:destination="@id/addFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_likeFragment32"
+            app:destination="@id/likeFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_profileFragment33"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_homeFragment3_to_searchFragment32"
+            app:destination="@id/searchFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment3"
+        android:name="com.example.fragment_instagram.Fragment.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment3_to_likeFragment3"
+            app:destination="@id/likeFragment3" />
+        <action
+            android:id="@+id/action_addFragment3_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+        <action
+            android:id="@+id/action_addFragment3_to_profileFragment3"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_addFragment3_to_searchFragment3"
+            app:destination="@id/searchFragment3" />
+        <action
+            android:id="@+id/action_addFragment3_to_searchFragment32"
+            app:destination="@id/searchFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/likeFragment3"
+        android:name="com.example.fragment_instagram.Fragment.LikeFragment"
+        android:label="fragment_like"
+        tools:layout="@layout/fragment_like" >
+        <action
+            android:id="@+id/action_likeFragment3_to_profileFragment3"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_likeFragment3_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+        <action
+            android:id="@+id/action_likeFragment3_to_addFragment3"
+            app:destination="@id/addFragment3" />
+        <action
+            android:id="@+id/action_likeFragment3_to_profileFragment32"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_likeFragment3_to_searchFragment3"
+            app:destination="@id/searchFragment3" />
+        <action
+            android:id="@+id/action_likeFragment3_to_searchFragment32"
+            app:destination="@id/searchFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment3"
+        android:name="com.example.fragment_instagram.Fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment3_to_searchFragment3"
+            app:destination="@id/searchFragment3" />
+        <action
+            android:id="@+id/action_profileFragment3_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+        <action
+            android:id="@+id/action_profileFragment3_to_addFragment3"
+            app:destination="@id/addFragment3" />
+        <action
+            android:id="@+id/action_profileFragment3_to_likeFragment3"
+            app:destination="@id/likeFragment3" />
+        <action
+            android:id="@+id/action_profileFragment3_to_searchFragment32"
+            app:destination="@id/searchFragment3" />
+        <action
+            android:id="@+id/action_profileFragment3_to_searchFragment33"
+            app:destination="@id/searchFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment3"
+        android:name="com.example.fragment_instagram.Fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment3_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+        <action
+            android:id="@+id/action_searchFragment3_to_addFragment3"
+            app:destination="@id/addFragment3" />
+        <action
+            android:id="@+id/action_searchFragment3_to_likeFragment3"
+            app:destination="@id/likeFragment3" />
+        <action
+            android:id="@+id/action_searchFragment3_to_profileFragment3"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_searchFragment3_to_profileFragment32"
+            app:destination="@id/profileFragment3" />
+        <action
+            android:id="@+id/action_searchFragment3_to_likeFragment32"
+            app:destination="@id/likeFragment3" />
+        <action
+            android:id="@+id/action_searchFragment3_to_addFragment32"
+            app:destination="@id/addFragment3" />
+        <action
+            android:id="@+id/action_searchFragment3_to_homeFragment32"
+            app:destination="@id/homeFragment3" />
+    </fragment>
+</navigation>
